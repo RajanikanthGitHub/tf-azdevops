@@ -7,5 +7,6 @@ variable "name" {
 }
 
 variable "init_type" {
-  type = string
+  type    = string
+  default = "Uninitialized"
 }
